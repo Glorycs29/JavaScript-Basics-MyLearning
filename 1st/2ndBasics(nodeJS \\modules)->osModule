@@ -1,0 +1,16 @@
+
+//👍basically used to print info of our system
+
+let os=require("os");
+
+//👍architecture
+// console.log(os.arch());
+
+//👍platform
+// console.log(os.platform());
+
+//👍wi-fi information
+//console.log(os.networkInterfaces());
+
+//👍series and other info of our system
+console.log(os.cpus());
